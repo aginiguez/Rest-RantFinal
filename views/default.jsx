@@ -24,7 +24,7 @@ function Def(html) {
                 </nav>
                 {html.children}
                 <div className="wrapper">
-                    <h3>Michael Kawata</h3>
+                    <h3>Anthony</h3>
                     <div className="push"></div>
                 </div>
                 <footer className="footer"></footer>
