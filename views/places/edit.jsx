@@ -8,7 +8,7 @@ function edit_form(data) {
                 <h1>Edit Place</h1>
                 <form method="POST" action={`/places/${data.place.id}?_method=PUT`}>
                     <div className="row">
-                        <div className="col-sm-6 col-sm-4 col-lg-3">BOX
+                        <div className="col-sm-6 col-sm-4 col-lg-3">
                             <label htmlFor="name">Place Name</label>
                             <input
                                 className="form-control"
@@ -17,7 +17,7 @@ function edit_form(data) {
                                 defaultValue={data.place.name}
                                 required />
                         </div>
-                        <div className="col-sm-6 col-sm-4 col-lg-3">BOX
+                        <div className="col-sm-6 col-sm-4 col-lg-3">
                             <label htmlFor="pic">Place Picture</label>
                             <input
                                 className="form-control"
@@ -26,7 +26,7 @@ function edit_form(data) {
                                 defaultValue={data.place.pic}
                             />
                         </div>
-                        <div className="col-sm-6 col-sm-4 col-lg-3">BOX
+                        <div className="col-sm-6 col-sm-4 col-lg-3">
                             <label htmlFor="city">City</label>
                             <input
                                 className="form-control"
@@ -35,7 +35,7 @@ function edit_form(data) {
                                 defaultValue={data.place.city}
                             />
                         </div>
-                        <div className="col-sm-6 col-sm-4 col-lg-3">BOX
+                        <div className="col-sm-6 col-sm-4 col-lg-3">
                             <label htmlFor="state">State</label>
                             <input
                                 className="form-control"
@@ -44,7 +44,7 @@ function edit_form(data) {
                                 defaultValue={data.place.state}
                             />
                         </div>
-                        <div className="col-sm-6 col-sm-4 col-lg-3">BOX
+                        <div className="col-sm-6 col-sm-4 col-lg-3">
                             <label htmlFor="cuisines">Cuisines</label>
                             <input
                                 className="form-control"

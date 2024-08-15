@@ -5,7 +5,6 @@ const Def = require('../default')
 const localImages = [
     '/images/coffee-cat.jpg',
     '/images/thaifoodimg.jpg',
-    '/images/burgerimg.jpg',
     // Add paths to all your local images here
 ];
 
