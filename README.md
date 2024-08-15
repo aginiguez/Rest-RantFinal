@@ -6,7 +6,7 @@ Run npm install to install dependencies for the API.
 
 Next, run npm start.
 
-APP (http://localhost:3000)
+App Access, after npm start, go to (http://localhost:3000)
 
 Method | Path | Purpose
 --- | --- | ---

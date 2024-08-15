@@ -5,7 +5,7 @@ function edit_form(data) {
     return (
         <Def>
             <main>
-                <h1>Edit Place</h1>
+                <h1>Edit Review</h1>
                 <form method="POST" action={`/places/${data.place.id}?_method=PUT`}>
                     <div className="row">
                         <div className="col-sm-6 col-sm-4 col-lg-3">
