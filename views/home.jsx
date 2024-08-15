@@ -5,7 +5,7 @@ const home = () => {
     return (
         <Def>
             <main>
-                <h1>REST-Rant</h1>
+                <h1>Rest Rant Reviews</h1>
                 <div>
                     <img src="/images/h-thai-ml-tables.jpg" alt="Image of Burger" height="400" width="600" />
                     <div>

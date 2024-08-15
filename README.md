@@ -1,5 +1,13 @@
 REST-Rant is an app where users can review restaurants.
 
+Setup
+
+Run npm install to install dependencies for the API.
+
+Next, run npm start.
+
+APP (http://localhost:3000)
+
 Method | Path | Purpose
 --- | --- | ---
 GET | / | Home Page
