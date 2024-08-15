@@ -1,7 +1,7 @@
 const React = require('react')
 const Def = require('../default')
 
-function show(data) {
+function show(data, imageUrl) {
     let comments = (
         <h3 className="inactive">
             No comments yet!
@@ -28,11 +28,10 @@ function show(data) {
         )
     }
 
-
     if (data.place.comments.length) {
-        comments = data.place.comments.map(c => {
+        comments = data.place.comments.map((c, i) => {
             return (
-                <div className="border col-sm-4">
+                <div className="border col-sm-4" key={i}>
                     <h2 className="rant">{c.rant ? 'Rant! 😡' : 'Rave! 😆'}</h2>
                     <h4>{c.content}</h4>
                     <h3>
@@ -46,12 +45,23 @@ function show(data) {
             )
         })
     }
+
+    const localImages = [
+        '/images/coffee-cat.jpg',
+        '/images/thaifoodimg.jpg',
+        '/images/burgerimg.jpg',
+        // Add paths to all your local images here
+    ];
+
+    const randomImage = localImages[Math.floor(Math.random() * localImages.length)];
+
     return (
         <Def>
             <main>
                 <div className="row">
                     <div className="col-sm-6">
-                        <img src={data.place.pic} alt={data.place.name} />
+                        {/* <img src={data.place.pic } alt={data.place.name} width={350} height={350} /> */}
+                        <img src={randomImage } alt={data.place.name} width={350} height={350} />
                         <h3>
                             Located in {data.place.city}, {data.place.state}
                         </h3>
