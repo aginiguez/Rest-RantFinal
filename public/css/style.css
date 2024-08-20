@@ -60,3 +60,9 @@ main {
     margin-left: 20px;
     background-color: white;
 }
+
+.star-rating {
+    font-size: 2em; /* Make the stars larger
+    color: gold; /* Set star color */
+}
+
