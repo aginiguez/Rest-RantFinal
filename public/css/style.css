@@ -62,7 +62,9 @@ main {
 }
 
 .star-rating {
-    font-size: 2em; /* Make the stars larger
-    color: gold; /* Set star color */
+    font-size: 2em;
+    color: gold; 
 }
+
+
 
